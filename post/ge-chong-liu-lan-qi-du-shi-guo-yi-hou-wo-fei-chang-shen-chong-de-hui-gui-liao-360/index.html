@@ -4,14 +4,11 @@
     <meta charset="utf-8" >
 
 <title>各种浏览器都试过以后，我非常慎重的回归了360... | 小雨的光的博客</title>
-<meta name="description" content="温故而知新">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="shortcut icon" href="https://xiaoyudeguang.github.io//favicon.ico?v=1581413846415">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="https://xiaoyudeguang.github.io//favicon.ico?v=1581415620750">
 <link rel="stylesheet" href="https://xiaoyudeguang.github.io//styles/main.css">
 
 
@@ -21,124 +18,58 @@
 
   
 
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
-
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+
+    <meta name="description" content="从大学时期，一直在用360安全浏览器。多次被人诟病太low。作为一个程序员，360安全浏览器的确不是一个好的选择。但是，因为一直用的360出的360手机，手机端也是360浏览器，和PC端的数据可以进行同步的，就一直没舍得换。这次因为工作的需..." />
+    <meta name="keywords" content="选择浏览器" />
   </head>
   <body>
-  
-    <nav class="navbar border fixed split-nav">
-  <div class="nav-brand">
-    <h3><a href="https://xiaoyudeguang.github.io/">小雨的光的博客</a></h3>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible1" type="checkbox" name="collapsible1">
-    <button>
-      <label for="collapsible1">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </label>
-    </button>
-    <div class="collapsible-body">
-      <ul class="inline">
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://xiaoyudeguang.github.io/">
+        <img src="https://xiaoyudeguang.github.io//images/avatar.png?v=1581415620750" class="site-logo">
+        <h1 class="site-title">小雨的光的博客</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
         
-          <li>
-            
-              <a href="/" class="menu">
-                首页
-              </a>
-            
-          </li>
+          <a href="/" class="site-nav">
+            首页
+          </a>
         
-          <li>
-            
-              <a href="/archives" class="menu">
-                归档
-              </a>
-            
-          </li>
+      
         
-          <li>
-            
-              <a href="/tags" class="menu">
-                标签
-              </a>
-            
-          </li>
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
         
-          <li>
-            
-              <a href="/post/about" class="menu">
-                关于
-              </a>
-            
-          </li>
+      
         
-      </ul>
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
     </div>
   </div>
-</nav>
-
-    <div id="top" class="row site">
-      <div class="sm-12 md-8 col">
-        <div class="paper">
-          <article class="article">
-            <h1>各种浏览器都试过以后，我非常慎重的回归了360...</h1>
-            <p class="article-meta">
-              2020-02-11
-              
-                <a href="https://xiaoyudeguang.github.io/tag/eYko5zOQA" class="badge ">
-                  选择浏览器
-                </a>
-              
-            </p>
-            
-            <div class="post-content">
-              <pre><code>从大学时期，一直在用360安全浏览器。多次被人诟病太low。作为一个程序员，360安全浏览器的确不是一个好的选择。但是，因为一直用的360出的360手机，手机端也是360浏览器，和PC端的数据可以进行同步的，就一直没舍得换。这次因为工作的需要，不得不试着换一个浏览器用。
-
-第一选择当然是传闻中非常牛逼的谷歌啊。一通操作猛如虎，结果不能登录。长期以来的习惯，不能云端登录备份的软件不是好软件，尤其是我还有一个攒了好多年的收藏夹库需要一直备份着。谷歌提供了登录功能，但是需要翻墙。好不容易翻墙了，注册谷歌账号吧，结果手机号不能用。果断弃坑了。
-
-第二选择是火狐浏览器。怎么说呢，不好不坏，没啥特色。先放着，再试试别的。
-
-第三选择是微软的edge。考虑是系统自带，万一好用呢。然鹅，试过以后就不想用了。操作功能啥功能都没有，和其他浏览器相比简直就是简陋的毛坯房。同时，一样的网速，edge的速度简直是龟速。360浏览器已经打开一个网站操作好一会了，edge终于加载出来了。不愧是微软官方出品的浏览器，就是牛，和ie一样牛，啥也不说了，清空数据退出，over。
-</code></pre>
-
-            </div>
-          </article>
-        </div>
-        <div class="paper" data-aos="fade-in">
-          
-            <div class="next-post">
-              <div class="next">
-                下一篇
-              </div>
-              <a href="https://xiaoyudeguang.github.io/post/da-sa-da-sa">
-                <h3 class="post-title">
-                  乔迁之喜
-                </h3>
-              </a>
-            </div>
-          
-        </div>
-        
-          
-            <div class="paper" data-aos="fade-in">
-              <div id="gitalk-container"></div>
-            </div>
-          
-
-          
-        
-      </div>
-
-      <div class="sm-12 md-4 col sidebar">
-  <div class="paper info-container">
-    <img src="https://xiaoyudeguang.github.io//images/avatar.png?v=1581413846415" class="no-responsive avatar">
-    <div class="text-muted">温故而知新</div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
     <div class="social-container">
       
         
@@ -152,70 +83,82 @@
         
       
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      最新文章
+    <div class="site-description">
+      温故而知新
     </div>
-    <div class="row">
-      <ul>
-        
-          
-            <li>
-              <a href="https://xiaoyudeguang.github.io/post/ge-chong-liu-lan-qi-du-shi-guo-yi-hou-wo-fei-chang-shen-chong-de-hui-gui-liao-360">各种浏览器都试过以后，我非常慎重的回归了360...</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://xiaoyudeguang.github.io/post/da-sa-da-sa">乔迁之喜</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://xiaoyudeguang.github.io/post/about">关于</a>
-            </li>
-          
-        
-          
-            <li>
-              <a href="https://xiaoyudeguang.github.io/post/hello-gridea">Hello Gridea</a>
-            </li>
-          
-        
-      </ul>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://xiaoyudeguang.github.io//atom.xml" target="_blank">RSS</a>
     </div>
-  </div>
-  <div class="paper">
-    <div class="sidebar-title">
-      标签列表
-    </div>
-    <div class="row">
-      
-        <a href="https://xiaoyudeguang.github.io/tag/eYko5zOQA" class="badge ">
-          选择浏览器
-        </a>
-      
-    </div>
-  </div>
-  <div class="paper">
-    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://xiaoyudeguang.github.io//atom.xml" target="_blank">RSS</a>
   </div>
 </div>
 
 
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">各种浏览器都试过以后，我非常慎重的回归了360...</h2>
+            <div class="post-date">2020-02-11</div>
+            
+            <div class="post-content" v-pre>
+              <pre><code>从大学时期，一直在用360安全浏览器。多次被人诟病太low。作为一个程序员，360安全浏览器的确不是一个好的选择。但是，因为一直用的360出的360手机，手机端也是360浏览器，和PC端的数据可以进行同步的，就一直没舍得换。这次因为工作的需要，不得不试着换一个浏览器用。
+
+第一选择当然是传闻中非常牛逼的谷歌啊。一通操作猛如虎，结果不能登录。长期以来的习惯，不能云端登录备份的软件不是好软件，尤其是我还有一个攒了好多年的收藏夹库需要一直备份着。谷歌提供了登录功能，但是需要翻墙。好不容易翻墙了，注册谷歌账号吧，结果手机号不能用。果断弃坑了。
+
+第二选择是火狐浏览器。怎么说呢，不好不坏，没啥特色。先放着，再试试别的。
+
+第三选择是微软的edge。考虑是系统自带，万一好用呢。然鹅，试过以后就不想用了。操作功能啥功能都没有，和其他浏览器相比简直就是简陋的毛坯房。同时，一样的网速，edge的速度简直是龟速。360浏览器已经打开一个网站操作好一会了，edge终于加载出来了。不愧是微软官方出品的浏览器，就是牛，和ie一样牛，啥也不说了，清空数据退出，over。
+</code></pre>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://xiaoyudeguang.github.io/tag/eYko5zOQA" class="tag">
+                    选择浏览器
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://xiaoyudeguang.github.io/post/da-sa-da-sa">
+                  <h3 class="post-title">
+                    乔迁之喜
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
 <script type="application/javascript">
 
 AOS.init();
 
-hljs.initHighlightingOnLoad()
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
 </script>
+
+
 
 
 
