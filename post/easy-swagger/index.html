@@ -1,22 +1,107 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://xiaoyudeguang.github.io/</id>
-    <title>小雨的光的博客</title>
-    <updated>2020-02-20T02:59:19.395Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://xiaoyudeguang.github.io/"/>
-    <link rel="self" href="https://xiaoyudeguang.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
-    <logo>https://xiaoyudeguang.github.io/images/avatar.png</logo>
-    <icon>https://xiaoyudeguang.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 小雨的光的博客</rights>
-    <entry>
-        <title type="html"><![CDATA[easy-swagger]]></title>
-        <id>https://xiaoyudeguang.github.io/post/easy-swagger</id>
-        <link href="https://xiaoyudeguang.github.io/post/easy-swagger">
-        </link>
-        <updated>2020-02-20T02:58:40.000Z</updated>
-        <content type="html"><![CDATA[<p>为什么要选择easy-swagger？<br>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>easy-swagger | 小雨的光的博客</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://xiaoyudeguang.github.io//favicon.ico?v=1582167539364">
+<link rel="stylesheet" href="https://xiaoyudeguang.github.io//styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="为什么要选择easy-swagger？
+        日常开发中，接口文档几乎是必不可少的一环，靠程序员自己维护接口文档 经常出现的几个问题是：需要额外花时间编写文档，从而导致更新不及时，维护又麻烦 。到最后，除非强制要求，否则接口文档几..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://xiaoyudeguang.github.io/">
+        <img src="https://xiaoyudeguang.github.io//images/avatar.png?v=1582167539364" class="site-logo">
+        <h1 class="site-title">小雨的光的博客</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      温故而知新
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://xiaoyudeguang.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">easy-swagger</h2>
+            <div class="post-date">2020-02-20</div>
+            
+            <div class="post-content" v-pre>
+              <p>为什么要选择easy-swagger？<br>
         日常开发中，接口文档几乎是必不可少的一环，靠程序员自己维护接口文档 经常出现的几个问题是：需要额外花时间编写文档，从而导致更新不及时，维护又麻烦 。到最后，除非强制要求，否则接口文档几乎不可用了。</p>
 <p>基于注解生成接口文档的swagger一开始的确缓解了程序员和接口文档之间的矛盾，但是 过分的植入注解导致的注解泛滥又让很多人不得不放弃这种方式，开始转向读取注释的方式来生成文档。</p>
 <p>然而基于注释的方式存在的问题是，如果程序员不及时更新注释又会导致接口文档不可用（比如参数变更）。而且打包之后注释就没了，强行将注释打包到jar的方式又会增加jar包的体积。</p>
@@ -151,31 +236,75 @@ public ApiConfiguration configApi() {
 <p>}<br>
 有了这个配置，8081端口和8082端口的服务就会在自己启动时主动注册到8080端口的服务。</p>
 <p>喜欢的话，到码云 https://gitee.com/xiaoyudeguang/easy-swagger 加个star呗</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[各种浏览器都试过以后，我非常慎重的回归了360...]]></title>
-        <id>https://xiaoyudeguang.github.io/post/ge-chong-liu-lan-qi-du-shi-guo-yi-hou-wo-fei-chang-shen-chong-de-hui-gui-liao-360</id>
-        <link href="https://xiaoyudeguang.github.io/post/ge-chong-liu-lan-qi-du-shi-guo-yi-hou-wo-fei-chang-shen-chong-de-hui-gui-liao-360">
-        </link>
-        <updated>2020-02-11T08:38:09.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>从大学时期，一直在用360安全浏览器。多次被人诟病太low。作为一个程序员，360安全浏览器的确不是一个好的选择。但是，因为一直用的360出的360手机，手机端也是360浏览器，和PC端的数据可以进行同步的，就一直没舍得换。这次因为工作的需要，不得不试着换一个浏览器用。
 
-第一选择当然是传闻中非常牛逼的谷歌啊。一通操作猛如虎，结果不能登录。长期以来的习惯，不能云端登录备份的软件不是好软件，尤其是我还有一个攒了好多年的收藏夹库需要一直备份着。谷歌提供了登录功能，但是需要翻墙。好不容易翻墙了，注册谷歌账号吧，结果手机号不能用。果断弃坑了。
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://xiaoyudeguang.github.io/post/ge-chong-liu-lan-qi-du-shi-guo-yi-hou-wo-fei-chang-shen-chong-de-hui-gui-liao-360">
+                  <h3 class="post-title">
+                    各种浏览器都试过以后，我非常慎重的回归了360...
+                  </h3>
+                </a>
+              </div>
+            
 
-第二选择是火狐浏览器。怎么说呢，不好不坏，没啥特色。先放着，再试试别的。
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
 
-第三选择是微软的edge。考虑是系统自带，万一好用呢。然鹅，试过以后就不想用了。操作功能啥功能都没有，和其他浏览器相比简直就是简陋的毛坯房。同时，一样的网速，edge的速度简直是龟速。360浏览器已经打开一个网站操作好一会了，edge终于加载出来了。不愧是微软官方出品的浏览器，就是牛，和ie一样牛，啥也不说了，清空数据退出，over。
-</code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[乔迁之喜]]></title>
-        <id>https://xiaoyudeguang.github.io/post/da-sa-da-sa</id>
-        <link href="https://xiaoyudeguang.github.io/post/da-sa-da-sa">
-        </link>
-        <updated>2020-02-11T07:11:50.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>      我的个人博客之旅开始啦！</code></pre>
-]]></content>
-    </entry>
-</feed>
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
