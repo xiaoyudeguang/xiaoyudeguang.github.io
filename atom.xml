@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xiaoyudeguang.github.io/</id>
-    <title>小雨的光的博客</title>
-    <updated>2020-02-22T10:03:27.354Z</updated>
+    <title>赵光的博客</title>
+    <updated>2020-02-22T10:19:18.900Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xiaoyudeguang.github.io/"/>
     <link rel="self" href="https://xiaoyudeguang.github.io/atom.xml"/>
     <subtitle>如果实在不知道该追求什么，那么保持每天都在进步就好了，你可以成功的！</subtitle>
     <logo>https://xiaoyudeguang.github.io/images/avatar.png</logo>
     <icon>https://xiaoyudeguang.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 小雨的光的博客</rights>
+    <rights>All rights reserved 2020, 赵光的博客</rights>
     <entry>
         <title type="html"><![CDATA[easy-swagger]]></title>
         <id>https://xiaoyudeguang.github.io/post/easy-swagger/</id>
