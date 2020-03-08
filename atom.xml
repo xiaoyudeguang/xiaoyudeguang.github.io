@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xiaoyudeguang.github.io/</id>
     <title>赵光的博客</title>
-    <updated>2020-03-08T05:43:53.105Z</updated>
+    <updated>2020-03-08T05:45:12.168Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xiaoyudeguang.github.io/"/>
     <link rel="self" href="https://xiaoyudeguang.github.io/atom.xml"/>
@@ -166,9 +166,13 @@ public ApiConfiguration configApi() {
         <link href="https://xiaoyudeguang.github.io/post/ge-chong-liu-lan-qi-du-shi-guo-yi-hou-wo-fei-chang-shen-chong-de-hui-gui-liao-360/">
         </link>
         <updated>2020-02-11T08:38:09.000Z</updated>
+        <summary type="html"><![CDATA[<pre><code>从大学时期，一直在用360安全浏览器。多次被人诟病太low。作为一个程序员，360安全浏览器的确不是一个好的选择。但是，因为一直用的360出的360手机，手机端也是360浏览器，和PC端的数据可以进行同步的，就一直没舍得换。这次因为工作的需要，不得不试着换一个浏览器用。
+</code></pre>
+]]></summary>
         <content type="html"><![CDATA[<pre><code>从大学时期，一直在用360安全浏览器。多次被人诟病太low。作为一个程序员，360安全浏览器的确不是一个好的选择。但是，因为一直用的360出的360手机，手机端也是360浏览器，和PC端的数据可以进行同步的，就一直没舍得换。这次因为工作的需要，不得不试着换一个浏览器用。
-
-第一选择当然是传闻中非常牛逼的谷歌啊。一通操作猛如虎，结果不能登录。长期以来的习惯，不能云端登录备份的软件不是好软件，尤其是我还有一个攒了好多年的收藏夹库需要一直备份着。谷歌提供了登录功能，但是需要翻墙。好不容易翻墙了，注册谷歌账号吧，结果手机号不能用。果断弃坑了。
+</code></pre>
+<!-- more -->
+<pre><code>第一选择当然是传闻中非常牛逼的谷歌啊。一通操作猛如虎，结果不能登录。长期以来的习惯，不能云端登录备份的软件不是好软件，尤其是我还有一个攒了好多年的收藏夹库需要一直备份着。谷歌提供了登录功能，但是需要翻墙。好不容易翻墙了，注册谷歌账号吧，结果手机号不能用。果断弃坑了。
 
 第二选择是火狐浏览器。怎么说呢，不好不坏，没啥特色。先放着，再试试别的。
 
@@ -182,7 +186,12 @@ public ApiConfiguration configApi() {
         <link href="https://xiaoyudeguang.github.io/post/da-sa-da-sa/">
         </link>
         <updated>2020-02-11T07:11:50.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>      我的个人博客之旅开始啦！</code></pre>
+        <summary type="html"><![CDATA[<pre><code>      我的个人博客之旅开始啦！
+</code></pre>
+]]></summary>
+        <content type="html"><![CDATA[<pre><code>      我的个人博客之旅开始啦！
+</code></pre>
+<!-- more -->
 ]]></content>
     </entry>
 </feed>
