@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xiaoyudeguang.github.io/</id>
     <title>赵光的博客</title>
-    <updated>2020-03-08T08:41:17.797Z</updated>
+    <updated>2020-03-08T08:46:28.629Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xiaoyudeguang.github.io/"/>
     <link rel="self" href="https://xiaoyudeguang.github.io/atom.xml"/>
@@ -49,31 +49,13 @@
         <link href="https://xiaoyudeguang.github.io/post/easy-swagger/">
         </link>
         <updated>2020-02-20T02:58:40.000Z</updated>
-        <summary type="html"><![CDATA[<hr>
-<p>title: 'easy-swagger'<br>
-date: 2020-02-20 10:58:40<br>
-tags: [开源项目]<br>
-published: true<br>
-hideInList: false<br>
-feature: /post-images/easy-swagger.jpg<br>
-isTop: false</p>
-<hr>
-<h1 id="为什么要选择easy-swagger">为什么要选择easy-swagger？</h1>
+        <summary type="html"><![CDATA[<h1 id="为什么要选择easy-swagger">为什么要选择easy-swagger？</h1>
 <p>日常开发中，接口文档几乎是必不可少的一环，靠程序员自己维护接口文档 经常出现的几个问题是：需要额外花时间编写文档，从而导致更新不及时，维护又麻烦 。到最后，除非强制要求，否则接口文档几乎不可用了。</p>
 <p>基于注解生成接口文档的swagger一开始的确缓解了程序员和接口文档之间的矛盾，但是 过分的植入注解导致的注解泛滥又让很多人不得不放弃这种方式，开始转向读取注释的方式来生成文档。</p>
 <p>然而基于注释的方式存在的问题是，如果程序员不及时更新注释又会导致接口文档不可用（比如参数变更）。而且打包之后注释就没了，强行将注释打包到jar的方式又会增加jar包的体积。</p>
 <p>相信经历了这些的你一定希望出现一个对程序员和接口文档都友好的方式，这就是选择easy-swagger的理由。</p>
 ]]></summary>
-        <content type="html"><![CDATA[<hr>
-<p>title: 'easy-swagger'<br>
-date: 2020-02-20 10:58:40<br>
-tags: [开源项目]<br>
-published: true<br>
-hideInList: false<br>
-feature: /post-images/easy-swagger.jpg<br>
-isTop: false</p>
-<hr>
-<h1 id="为什么要选择easy-swagger">为什么要选择easy-swagger？</h1>
+        <content type="html"><![CDATA[<h1 id="为什么要选择easy-swagger">为什么要选择easy-swagger？</h1>
 <p>日常开发中，接口文档几乎是必不可少的一环，靠程序员自己维护接口文档 经常出现的几个问题是：需要额外花时间编写文档，从而导致更新不及时，维护又麻烦 。到最后，除非强制要求，否则接口文档几乎不可用了。</p>
 <p>基于注解生成接口文档的swagger一开始的确缓解了程序员和接口文档之间的矛盾，但是 过分的植入注解导致的注解泛滥又让很多人不得不放弃这种方式，开始转向读取注释的方式来生成文档。</p>
 <p>然而基于注释的方式存在的问题是，如果程序员不及时更新注释又会导致接口文档不可用（比如参数变更）。而且打包之后注释就没了，强行将注释打包到jar的方式又会增加jar包的体积。</p>
