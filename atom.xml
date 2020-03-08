@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xiaoyudeguang.github.io/</id>
     <title>赵光的博客</title>
-    <updated>2020-03-08T13:00:38.235Z</updated>
+    <updated>2020-03-08T13:04:04.117Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xiaoyudeguang.github.io/"/>
     <link rel="self" href="https://xiaoyudeguang.github.io/atom.xml"/>
@@ -11,17 +11,19 @@
     <icon>https://xiaoyudeguang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 赵光的博客</rights>
     <entry>
-        <title type="html"><![CDATA[测试测试]]></title>
+        <title type="html"><![CDATA[Markdown笔记]]></title>
         <id>https://xiaoyudeguang.github.io/post/ce-shi-ce-shi/</id>
         <link href="https://xiaoyudeguang.github.io/post/ce-shi-ce-shi/">
         </link>
         <updated>2020-03-08T09:07:49.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>public class demo {
+        <content type="html"><![CDATA[<h2 id="1-代码片段">1. 代码片段</h2>
+<pre><code>public class demo {
     public static void main(String[] args){
          System.out.println(&quot;测试);
     }
 }
 </code></pre>
+<h2 id="2-链接片段">2. 链接片段</h2>
 <p><a href="http://www.baidu.com">百度</a></p>
 ]]></content>
     </entry>
