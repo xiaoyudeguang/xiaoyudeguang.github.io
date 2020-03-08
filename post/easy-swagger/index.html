@@ -103,25 +103,23 @@
             <article class="main-article post">
               <section class="post-content">
                 <div class="text">
-                  <p>为什么要选择easy-swagger？<br>
-        日常开发中，接口文档几乎是必不可少的一环，靠程序员自己维护接口文档 经常出现的几个问题是：需要额外花时间编写文档，从而导致更新不及时，维护又麻烦 。到最后，除非强制要求，否则接口文档几乎不可用了。</p>
+                  <h1 id="为什么要选择easy-swagger">为什么要选择easy-swagger？</h1>
+<p>日常开发中，接口文档几乎是必不可少的一环，靠程序员自己维护接口文档 经常出现的几个问题是：需要额外花时间编写文档，从而导致更新不及时，维护又麻烦 。到最后，除非强制要求，否则接口文档几乎不可用了。</p>
 <p>基于注解生成接口文档的swagger一开始的确缓解了程序员和接口文档之间的矛盾，但是 过分的植入注解导致的注解泛滥又让很多人不得不放弃这种方式，开始转向读取注释的方式来生成文档。</p>
 <p>然而基于注释的方式存在的问题是，如果程序员不及时更新注释又会导致接口文档不可用（比如参数变更）。而且打包之后注释就没了，强行将注释打包到jar的方式又会增加jar包的体积。</p>
 <p>相信经历了这些的你一定希望出现一个对程序员和接口文档都友好的方式，这就是选择easy-swagger的理由。</p>
 <!-- more -->
-<p>介绍<br>
-     easy-swagger的主要目标是解决前后端交互需要编写文档的困扰，服务对象是前端研发人员。如果你一直被写文档的恐惧支配，如果 你怀揣着减少编写文档工作的梦想，那么，请你收下这份礼物——easy-swagger。第一、简单易上手，配置简单，即插即用；第二、写代码时顺手写文档，不需要占用很大篇幅，简洁不啰嗦；第三、容易维护，只需要修改极少的东西就可以完成文档的更新；第四、就算你完全懒得在代码中加入 一个额外注解，它也能自动产出高可用的文档.；第五、超强悍的微服务文档聚合能力。</p>
-<p>基础功能</p>
-<ol>
-<li>引用<br>
-   新建maven项目引入easy-swagger依赖(点击 最新版本地址 查看最新版本)</li>
-</ol>
+<h1 id="介绍">介绍</h1>
+<p>easy-swagger的主要目标是解决前后端交互需要编写文档的困扰，服务对象是前端研发人员。如果你一直被写文档的恐惧支配，如果 你怀揣着减少编写文档工作的梦想，那么，请你收下这份礼物——easy-swagger。第一、简单易上手，配置简单，即插即用；第二、写代码时顺手写文档，不需要占用很大篇幅，简洁不啰嗦；第三、容易维护，只需要修改极少的东西就可以完成文档的更新；第四、就算你完全懒得在代码中加入 一个额外注解，它也能自动产出高可用的文档.；第五、超强悍的微服务文档聚合能力。</p>
+<h1 id="基础功能">基础功能</h1>
+<h2 id="1-引用">1. 引用</h2>
+<p>新建maven项目引入easy-swagger依赖(点击 最新版本地址 查看最新版本)</p>
 <dependency>
     <groupId>io.github.xiaoyudeguang</groupId>
     <artifactId>easy-swagger</artifactId>
     <version>最新版本</version>
 </dependency>
-2. 编码
+## 2. 编码
 import com.zlyx.easycore.tool.Console;
 import com.zlyx.easyswagger.annotations.SpringController;
 import com.zlyx.easyswagger.annotations.SpringMapping;
@@ -134,13 +132,11 @@ public Object test(String name, int age) {
 	return &quot;easy-swagger is an good tool!&quot;;
 }
 </code></pre>
-<p>}<br>
-3. 效果（打开浏览器访问：http://localhost:8080/docs.html）</p>
-<ol start="4">
-<li>修改默认配置<br>
-import org.springframework.context.annotation.Bean;<br>
-import org.springframework.context.annotation.Configuration;</li>
-</ol>
+<p>}</p>
+<h2 id="3-效果打开浏览器访问httplocalhost8080docshtml">3. 效果（打开浏览器访问：http://localhost:8080/docs.html）</h2>
+<h2 id="4-修改默认配置">4. 修改默认配置</h2>
+<p>import org.springframework.context.annotation.Bean;<br>
+import org.springframework.context.annotation.Configuration;</p>
 <p>import com.zlyx.easyswagger.config.ApiConfiguration;</p>
 <p>@Configuration<br>
 public class SwaggerConfiguration {</p>
@@ -157,9 +153,9 @@ public ApiConfiguration configApi() {
 	;
 }
 </code></pre>
-<p>}<br>
-5.  自定义配置方式<br>
-       如果easy-swagger配置Docket的方式无法满足你的需要，你可以在配置类中用自己习惯的方式添加Docket的Bean，像这样：</p>
+<p>}</p>
+<h2 id="5-自定义配置方式">5.  自定义配置方式</h2>
+<p>如果easy-swagger配置Docket的方式无法满足你的需要，你可以在配置类中用自己习惯的方式添加Docket的Bean，像这样：</p>
 <pre><code>@Bean
 public Docket configDocket (){
 	return new Docket(DocumentationType.SWAGGER_2).enable(false);
@@ -167,9 +163,9 @@ public Docket configDocket (){
 </code></pre>
 <p>需要注意的事，这种方式配置Docket需要将enable属性设置为false，否则你将不能很好地使用easy-swagger。</p>
 <p>说出来你可能不信，你已经成功的学会如何使用easy-swagger了。？？？没错，这就是全部使用步骤了。如果不是很有耐心往下看的话，你已经可以出师了。easy-swagger采用了大量自动配置的方案来优化使用体验。如果你想体验它的高级功能，那么，请接着往下看。</p>
-<p>高级功能 <br>
-1.  兼容原生swagger<br>
-  为了适应大多数项目已经引入了swagger注解的情况，easy-swagger对swagger注解做了兼容。对于之前的代码你不需要做任何修改就可以同样体验到easy-swagger的能力。比如，下面的代码和上面示例中的代码具有一致的效果。</p>
+<h1 id="高级功能">高级功能</h1>
+<h2 id="1-兼容原生swagger">1.  兼容原生swagger</h2>
+<p>为了适应大多数项目已经引入了swagger注解的情况，easy-swagger对swagger注解做了兼容。对于之前的代码你不需要做任何修改就可以同样体验到easy-swagger的能力。比如，下面的代码和上面示例中的代码具有一致的效果。</p>
 <p>import org.springframework.web.bind.annotation.RequestMapping;<br>
 import org.springframework.web.bind.annotation.RestController;</p>
 <p>import com.zlyx.easycore.tool.Console;</p>
@@ -186,9 +182,9 @@ public Object test(String name, String age) {
 	return &quot;easy-swagger is an good tool!&quot;;
 }
 </code></pre>
-<p>}<br>
-2. 分组功能<br>
-   easy-swagger对swagger做了一层封装，你仍然可以使用swagger的分组功能。</p>
+<p>}</p>
+<h2 id="2-分组功能">2. 分组功能</h2>
+<p>easy-swagger对swagger做了一层封装，你仍然可以使用swagger的分组功能。</p>
 <p></p>
 <p>编码示例</p>
 <p>import org.springframework.context.annotation.Bean;<br>
@@ -206,10 +202,8 @@ public ApiConfiguration configApi() {
 </code></pre>
 <p>}<br>
  效果展示</p>
-<ol start="3">
-<li>微服务聚合功能<br>
-    相信微服务是目前大多数程序的选择。之前，如果需要聚合多个微服务程序的文档，微服务网关是必须的选择。作者也尝试过这种方式。但是，微服务网关的实现方式实在是让人痛苦不堪，一大堆的配置绕来绕去，我的天。我就是想看个文档，至于这么复杂么？</li>
-</ol>
+<h2 id="3-微服务聚合功能">3. 微服务聚合功能</h2>
+<p>相信微服务是目前大多数程序的选择。之前，如果需要聚合多个微服务程序的文档，微服务网关是必须的选择。作者也尝试过这种方式。但是，微服务网关的实现方式实在是让人痛苦不堪，一大堆的配置绕来绕去，我的天。我就是想看个文档，至于这么复杂么？</p>
 <p>对于easy-swagger来说，你不需要额外的工作就可以达到聚合文档的目的。具体步骤如下：</p>
 <p>（1）假设本地已经启动了两个微服务程序（需要引入easy-swagger），端口分别是8081和8082。我们修改8080端口对应的服务的配置类：</p>
 <p>import org.springframework.context.annotation.Bean;<br>
@@ -233,11 +227,10 @@ import org.springframework.context.annotation.Configuration;</p>
 public class SwaggerConfiguration {</p>
 <pre><code>@Bean
 public ApiConfiguration configApi() {
-	return new ApiConfiguration().setManagerUrl(&quot;http://localhost:8080&quot;);
-}
 </code></pre>
 <p>}<br>
-有了这个配置，8081端口和8082端口的服务就会在自己启动时主动注册到8080端口的服务。</p>
+}</p>
+<p>有了这个配置，8081端口和8082端口的服务就会在自己启动时主动注册到8080端口的服务。</p>
 <p>喜欢的话，到码云 https://gitee.com/xiaoyudeguang/easy-swagger 加个star呗</p>
 
                 </div>
