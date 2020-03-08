@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xiaoyudeguang.github.io/</id>
     <title>赵光的博客</title>
-    <updated>2020-03-08T06:09:39.388Z</updated>
+    <updated>2020-03-08T06:14:13.243Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xiaoyudeguang.github.io/"/>
     <link rel="self" href="https://xiaoyudeguang.github.io/atom.xml"/>
@@ -172,7 +172,7 @@ public ApiConfiguration configApi() {
 <!-- more -->
 <p>第一选择当然是传闻中非常牛逼的谷歌啊。一通操作猛如虎，结果不能登录。长期以来的习惯，不能云端登录备份的软件不是好软件，尤其是我还有一个攒了好多年的收藏夹库需要一直备份着。谷歌提供了登录功能，但是需要翻墙。好不容易翻墙了，注册谷歌账号吧，结果手机号不能用。果断弃了。</p>
 <p>第二选择是火狐浏览器。怎么说呢，不好不坏，没啥特色。先放着，再试试别的。</p>
-<p>第三选择是微软的edge。考虑是系统自带，万一好用呢。然鹅，试过以后就不想用了。操作功能啥功能都没有，和其他浏览器相比简直就是简陋的毛坯房。同时，一样的网速，edge的速度简直是龟速。360浏览器已经打开一个网站操作好一会了，edge终于加载出来了。不愧是微软官方出品的浏览器， 就是牛，和ie一样牛，啥也不说了，清空数据退出，over。</p>
+<p>第三选择是微软的edge。考虑是系统自带，万一好用呢。然鹅，试过以后就不想用了。操作功能啥功能都没有，和其他浏览器相比简直就是简陋的毛坯房。同时，一样的网速，edge的速度简直是龟速。360浏览器已经打开一个网站操作好一会了，edge终于加载出来了。不愧是微软官方出品的浏览器， 就是牛，和ie一样牛，啥也不说了，清空数据退出，over。`</p>
 ]]></content>
     </entry>
     <entry>
